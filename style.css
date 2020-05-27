@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+
+}
+
+nav {
+    background-color: #FFAD69;
+    display: flex;
+    justify-content: center;
+}
+
+navbar > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+}
+
+navbar > ul > li > a {
+    padding: 0px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: larger;
+}
+
+main > div {
+    display: grid;
+    width: 100vw;
+    height: 400px;
+    background: linear-gradient(#FFAD69, rgb(255, 236, 201), rgb(255, 255, 255));
+}
